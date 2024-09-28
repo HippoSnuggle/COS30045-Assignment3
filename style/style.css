@@ -38,6 +38,10 @@ nav ul {
     font-weight: bold;
 }
 
+.nav-links a:hover, a.active {
+    color: #fff;
+}
+
 /* Hero Section */
 .hero {
     height: 90vh;
