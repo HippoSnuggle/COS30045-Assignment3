@@ -101,7 +101,8 @@ nav ul  {				/* navigation bar and unordered list*/
 		background-color: #b3eee0;   /* class nav_bar / anchor background colour on mouse hover */
 		color: Black;				 /* class nav_bar / anchor font colour on mouse hover */
 		}
+
 .img {
-		  width: 80%;
-		  height: auto;
+		width: 80%;
+		height: auto;
 		}
