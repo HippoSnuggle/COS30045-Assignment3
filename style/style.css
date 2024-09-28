@@ -47,8 +47,8 @@ nav ul {
     justify-content: center;
     text-align: center;
     color: white;
-    font-size: 26px;
-    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.85); /* Larger shadow with higher opacity */
+    font-size: 28px;
+    text-shadow: 8px 8px 12px rgba(0, 0, 0, 1); /* Larger shadow with higher opacity */
 }
 
 .hero-content h1 {
@@ -68,9 +68,6 @@ nav ul {
     font-weight: bold;
     cursor: pointer;
 }
-
-
-
 
 /* About Section */
 .about-section {
