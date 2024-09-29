@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment 3C - COS30045</title>
     <link rel="stylesheet" href="style/style.css">
-    
+    <script src="script/visualisation1.js"></script>
+	<script src="https://d3js.org/d3.v6.min.js"></script>
     <!-- Link to any external icons or fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
@@ -25,10 +26,15 @@
 
     <!-- Canvas Section -->
     <section id="canvas" class="canvas-section">
-        <h2>Visualisation 1</h2>
+        <h2>Visualisation 1 - Mortality rate in Australia</h2>	
         <div class="canvas">
             <!-- Canvas will be inserted here -->
-            <canvas id="visualisation1"></canvas>
+			    <div class = "button">
+					<button class="yearsort">Sort Year</button>
+					<button class="ascending">Ascending Value</button>
+					<button class="descending">Descending Value</button>
+				</div>
+			<p id = "bar_chart"></p>
         </div>
 
     <!-- About Section -->
