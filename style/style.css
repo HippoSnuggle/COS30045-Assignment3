@@ -110,6 +110,13 @@ footer {
 }
 
 /* Visualisation 1 Specifics */
+#bar_chart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;            /* Ensure auto margins for centering */
+    width: auto;               /* Adjust the width to fit content */
+}
 
 /* Visualisation 2 Specifics */
 

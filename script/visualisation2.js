@@ -250,4 +250,4 @@ function init() {
     });
 }
 
-init();  // Ensure init is called after the DOM is fully loaded, for debugging but kinda useful so keeping it.
+window.onload = init;
