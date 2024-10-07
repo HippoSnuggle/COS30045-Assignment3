@@ -109,16 +109,9 @@ footer {
     text-align: center;
 }
 
-/* Visualisation 2 Specifics */
+/* Visualisation 1 Specifics */
 
-/* Styling the SVG */
-.node {
-    border: 1px solid white;
-    font-size: 10px;
-    text-align: center;
-    line-height: 12px;
-    overflow: hidden;
-  }
+/* Visualisation 2 Specifics */
 
 /* Tooltip styling */
 .tooltip {
@@ -133,3 +126,21 @@ footer {
     color: #333;
     visibility: hidden;
   }
+
+/* Ensure the visualisation is centered inside the canvas container */
+#canvas-container {
+    display: flex;
+    justify-content: center;   /* Horizontally center */
+    align-items: center;       /* Vertically center */
+    width: 100%;               /* Full width */
+    height: auto;              /* Set height to auto, or set specific height if needed */
+    padding: 20px;             /* Optional: Add padding around the visualisation */
+}
+
+#visualisation2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;            /* Ensure auto margins for centering */
+    width: auto;               /* Adjust the width to fit content */
+}
