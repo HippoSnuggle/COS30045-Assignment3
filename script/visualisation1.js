@@ -13,7 +13,7 @@ function init(){
 	
 
 	// data file :
-    d3.csv("data/visualisation1.csv").then(data=>{
+    d3.csv("data/visualisation1/visualisation1.csv").then(data=>{
         //Group the data looking for multi rows
         let dataGroupByYear=d3.groups(data,d=>d.Year) 
         dataGroupByYear.forEach(e => {
