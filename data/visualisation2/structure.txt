@@ -1,0 +1,48 @@
+Certain infectious and parasitic diseases
+	Tuberculosis
+	HIV-AIDS
+Neoplasms
+	Malignant neoplasms
+		Malignant neoplasms of trachea, bronchus, lung
+		Malignant neoplasms of colon, rectum and anus
+		Malignant neoplasms of stomach
+		Malignant neoplasms of pancreas
+		Malignant neoplasms of liver
+		Hodgkin’s disease
+		Leukemia
+		Malignant neoplasms of bladder
+		Malignant melanoma of skin
+Diseases of the blood and blood-forming organs
+Endocrine, nutritional and metabolic diseases
+	Diabetes mellitus
+Mental and behavioural disorders
+	Dementia
+Diseases of the nervous system
+	Parkinson’s disease
+	Alzheimer’s disease
+Diseases of the respiratory system
+	Influenza
+	Pneumonia
+	Chronic obstructuve pulmonary diseases
+	Asthma
+Disaseas of the circulatory system
+	Ischaemic heart diseases
+		Acute myocardial infarction
+	Cerebrovascular diseases
+Diseases of the digestive system
+	Peptic ulcer
+	Chronic liver diseases and cirrhosis
+Diseases of the skin and subcutaneous tissue
+Diseases of the muscuskeletal system and connective tissue
+Diseases of the genitourinary system
+Certain conditions originating in the perinatal period
+Congenital malformations, deformaations and chromosomal abnormalities
+Symptoms, signs, ill-defined causes
+External causes of mortality
+	Accidents
+		Transport Accidents
+		Accidental falls
+		Accidental poisoning
+	Intentional self-harm
+	Assault
+Codes for special purposes: COVID-19

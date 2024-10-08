@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 3C - COS30045</title>
+    
+    <link rel="stylesheet" href="style/style.css">
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <script src="script/visualisation2.js" defer></script>
+
+    <!-- Link to any external icons or fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="logo">
+            <h1>Assignment 3 - OECD Health Data Visualisation</h1>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="visualisation1.html">Visualisation 1</a></li>
+            <li><a href="visualisation2.html" class="active" >Visualisation 2</a></li>
+            <li><a href="#about">About</a></li>
+        </ul>
+    </nav>
+
+    <!-- Canvas Section -->
+    <section id="canvas" class="canvas-section">
+        <h2>Visualisation 2 - OECD Causes of Mortality</h2>
+
+        <div class="canvas">
+            <p>The value presented here for each cause of death is per 100,000 deaths.</p>
+            
+            <!-- Dropdowns for Country and Year -->
+            <label for="country">Country:</label>
+            <select id="country"></select>
+    
+            <label for="year">Year:</label>
+            <select id="year"></select>
+    
+            <!-- Div for the tooltip -->
+            <div id="tooltip" class="tooltip"></div>
+
+            <div id="visualisation2"></div>
+        </div>
+
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <h2>About</h2>
+        <div class="about-cards"></div>
+            <div class="card">
+                <h3>Team 02F - Learning Group 2</h3>
+                <p>Cameron Kezemi - 104594659 &emsp; Nick Bui - 100575870</p>
+            </div>
+            <div class="card">
+                <h3>Visualisation 1</h3>
+                <p>Mortality Rate in Australia</p>
+            </div>
+            <div class="card">
+                <h3>Visualisation 2</h3>
+                <p>OECD Causes of Mortality</p>
+            </div>
+        </div>        
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>COS30045 Data Visualisation <br>Assignment 3C</p>
+        <p>Teaching Period 2 - 2024<br>Team 02F - Learning Group 2</p>
+    </footer>
+
+</body>
+</html>
